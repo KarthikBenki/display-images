@@ -9,7 +9,7 @@ const Card = (props) => {
           <p>{props.name.substring(0,20)}</p>
           <p>{props.id}</p>
         </div>
-        <img style={{ width: "200px" }} src={props.url} alt="" />
+        <img  src={props.url} alt="" />
       </div>
     </div>
   );
